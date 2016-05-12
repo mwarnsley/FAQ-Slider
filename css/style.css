@@ -45,3 +45,15 @@ h1{
     font-size: 120%;
     font-weight: bold;
 }
+
+.faq li.a{
+    background: #ddd;
+    display: none;
+}
+
+/******SETTING THE MEDIA QUERY TO MAKE IT RESPONSIVE********/
+@media(max-width: 800px){
+    #container{
+        width: 90%;
+    }
+}
