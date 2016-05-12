@@ -51,6 +51,12 @@ h1{
     display: none;
 }
 
+.rotate{
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 /******SETTING THE MEDIA QUERY TO MAKE IT RESPONSIVE********/
 @media(max-width: 800px){
     #container{
